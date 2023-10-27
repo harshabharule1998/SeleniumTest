@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.autospace.dashboard.Homepage">
+        <methods>
+          <include name="aftertest"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- com.autospace.dashboard.Homepage -->
+      <class name="com.autospace.dashboard.LoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="login"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.autospace.dashboard.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
